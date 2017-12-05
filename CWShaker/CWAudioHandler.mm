@@ -28,9 +28,6 @@
 
 static stk::Instrmnt *instrument;
 static InstrumentData data;
-//static BOOL playingNote;
-//static float minShakeAmplitude = 0.5;
-//static float resetThreshold = 0.01;
 
 void audioCallback(Float32 *buffer, UInt32 framesize, void *userData) {
     
@@ -77,6 +74,8 @@ void accelerometerCallback(AccelerometerData *accelData) {
 }
 
 @property (nonatomic, assign) BOOL connected;
+@property (nonatomic, assign) BOOL outputAudioUnitIsPublished;
+@property (nonatomic, assign) BOOL isSetup;
 
 @end
 
@@ -116,27 +115,46 @@ static CWAudioHandler *sharedHandler;
 }
 
 - (void)start {
-    
-    stk::Stk::setSampleRate(kSampleRate);
-    stk::Stk::showWarnings(true);
-    
-    data = {};
-    
-    if (!MoAudio::init(kSampleRate, kFrameSize, kNumChannels) || !MoAudio::start(audioCallback, &data)) {
-        DLog(@"Couldn't init/start MoAudio");
-        exit(1);
-    };
 
-    [self publishOutputAudioUnit];
-    
-    instrument = new stk::Shakers();
+    NSError *error = nil;
+    [[AVAudioSession sharedInstance] setActive:YES error:&error];
+
+    if (!self.isSetup) {
+
+        stk::Stk::setSampleRate(kSampleRate);
+        stk::Stk::showWarnings(true);
+
+        data = {};
+
+        if (!MoAudio::init(kSampleRate, kFrameSize, kNumChannels) || !MoAudio::start(audioCallback, &data)) {
+            DLog(@"Couldn't init/start MoAudio");
+            exit(1);
+        };
+
+        if (!self.outputAudioUnitIsPublished) {
+            [self publishOutputAudioUnit];
+        }
+
+        instrument = new stk::Shakers();
+
+        self.isSetup = YES;
+    }
+
 }
 
 - (void)stop {
-    
+
+    NSError *error = nil;
+    [[AVAudioSession sharedInstance] setActive:NO error:&error];
+
+    if (error) {
+        DLog(@"%@", error);
+    }
+
     MoAudio::stop();
-    
     MoAudio::shutdown();
+
+    self.isSetup = NO;
 }
 
 - (void)accelerometerDidUpdateWithData:(AccelerometerData *)accelData {
@@ -306,8 +324,8 @@ static CWAudioHandler *sharedHandler;
     if (status) {
         DLog(@"Couldn't publish audio unit");
     } else {
-
         [self addAudioUnitPropertyListener];
+        self.outputAudioUnitIsPublished = YES;
     }
 }
 
