@@ -217,20 +217,6 @@
     return [CWInstrumentFactory numberOfInstruments];
 }
 
-#pragma mark - Misc
-
-- (void)encodeRestorableStateWithCoder:(NSCoder *)coder {
-    [super encodeRestorableStateWithCoder:coder];
-    
-    [coder encodeInteger:self.currentPage forKey:kCurrentPageRestoreKey];
-}
-
-- (void)decodeRestorableStateWithCoder:(NSCoder *)coder {
-    [super decodeRestorableStateWithCoder:coder];
-    
-    self.currentPage = [coder decodeIntegerForKey:kCurrentPageRestoreKey];
-}
-
 - (void)resetCurrentPage {
     
     CWInstrumentCollectionViewCell *cell = [self currentlySelectedCell];
