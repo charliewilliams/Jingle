@@ -10,17 +10,17 @@
 		9EC966B518368E39002DCDAF /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9EC966B418368E39002DCDAF /* FontAwesome.otf */; };
 		C00510471BE17EBA0064AE75 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00510461BE17EBA0064AE75 /* Launch Screen.storyboard */; };
 		C01C13052930F1770011FAE1 /* Jingle_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13042930F1770011FAE1 /* Jingle_SwiftUIApp.swift */; };
-		C01C130A2930F1870011FAE1 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13062930F1870011FAE1 /* CategoryRow.swift */; };
 		C01C130B2930F1870011FAE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13072930F1870011FAE1 /* ContentView.swift */; };
 		C01C130C2930F1870011FAE1 /* ScrollingStackModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13082930F1870011FAE1 /* ScrollingStackModifier.swift */; };
 		C01C130D2930F1870011FAE1 /* InstrumentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13092930F1870011FAE1 /* InstrumentCell.swift */; };
 		C01C13112930F19B0011FAE1 /* Motion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C130F2930F19B0011FAE1 /* Motion.swift */; };
 		C01C13122930F19B0011FAE1 /* MotionFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13102930F19B0011FAE1 /* MotionFilter.swift */; };
+		C01C13142930F3B20011FAE1 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13132930F3B20011FAE1 /* SettingsStore.swift */; };
+		C01C13182930F7720011FAE1 /* Instrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13172930F7720011FAE1 /* Instrument.swift */; };
 		C01C161218254747005AFACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01C161118254747005AFACE /* Foundation.framework */; };
 		C01C161618254747005AFACE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01C161518254747005AFACE /* UIKit.framework */; };
 		C01C161C18254747005AFACE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C01C161A18254747005AFACE /* InfoPlist.strings */; };
 		C01C161E18254747005AFACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C161D18254747005AFACE /* main.m */; };
-		C01C162218254747005AFACE /* CWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C162118254747005AFACE /* CWAppDelegate.m */; };
 		C01C162518254747005AFACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01C162318254747005AFACE /* Main.storyboard */; };
 		C01C162818254747005AFACE /* CWMainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C162718254747005AFACE /* CWMainCollectionViewController.m */; };
 		C01C162A18254747005AFACE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01C162918254747005AFACE /* Images.xcassets */; };
@@ -29,7 +29,6 @@
 		C01C16511825662E005AFACE /* CWInstrumentFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C16501825662E005AFACE /* CWInstrumentFactory.m */; };
 		C01C16541825665F005AFACE /* CWInstrument.mm in Sources */ = {isa = PBXBuildFile; fileRef = C01C16531825665F005AFACE /* CWInstrument.mm */; };
 		C01C173618256F8C005AFACE /* AccelerometerFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C173518256F8C005AFACE /* AccelerometerFilter.m */; };
-		C01C173918256F9E005AFACE /* MotionTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C173818256F9E005AFACE /* MotionTracker.m */; };
 		C01C173E18256FE4005AFACE /* mo_audio.mm in Sources */ = {isa = PBXBuildFile; fileRef = C01C173C18256FE4005AFACE /* mo_audio.mm */; };
 		C01C174018256FFE005AFACE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01C173F18256FFE005AFACE /* AudioToolbox.framework */; };
 		C01C17491825793B005AFACE /* CWAudioHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = C01C17481825793B005AFACE /* CWAudioHandler.mm */; };
@@ -39,7 +38,6 @@
 		C06F224F1BD52913007E67AB /* UIView+AnimateValueChange.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A64918182EEBB4007F7D17 /* UIView+AnimateValueChange.m */; };
 		C06F22501BD52913007E67AB /* CWInstrumentFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C16501825662E005AFACE /* CWInstrumentFactory.m */; };
 		C06F22541BD52913007E67AB /* AccelerometerFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C173518256F8C005AFACE /* AccelerometerFilter.m */; };
-		C06F22561BD52913007E67AB /* CWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C162118254747005AFACE /* CWAppDelegate.m */; };
 		C06F22571BD52913007E67AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C161D18254747005AFACE /* main.m */; };
 		C06F22581BD52913007E67AB /* CWRadialGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C164A18255DB0005AFACE /* CWRadialGradientView.m */; };
 		C06F225B1BD52913007E67AB /* CWAudioHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = C01C17481825793B005AFACE /* CWAudioHandler.mm */; };
@@ -109,12 +107,13 @@
 		C00510461BE17EBA0064AE75 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		C01C13032930F1760011FAE1 /* Jingle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jingle-Bridging-Header.h"; sourceTree = "<group>"; };
 		C01C13042930F1770011FAE1 /* Jingle_SwiftUIApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jingle_SwiftUIApp.swift; sourceTree = "<group>"; };
-		C01C13062930F1870011FAE1 /* CategoryRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		C01C13072930F1870011FAE1 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C01C13082930F1870011FAE1 /* ScrollingStackModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingStackModifier.swift; sourceTree = "<group>"; };
 		C01C13092930F1870011FAE1 /* InstrumentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentCell.swift; sourceTree = "<group>"; };
 		C01C130F2930F19B0011FAE1 /* Motion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Motion.swift; sourceTree = "<group>"; };
 		C01C13102930F19B0011FAE1 /* MotionFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionFilter.swift; sourceTree = "<group>"; };
+		C01C13132930F3B20011FAE1 /* SettingsStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		C01C13172930F7720011FAE1 /* Instrument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instrument.swift; sourceTree = "<group>"; };
 		C01C160E18254747005AFACE /* Jingle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jingle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01C161118254747005AFACE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C01C161518254747005AFACE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -122,8 +121,6 @@
 		C01C161B18254747005AFACE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C01C161D18254747005AFACE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C01C161F18254747005AFACE /* CWShaker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CWShaker-Prefix.pch"; sourceTree = "<group>"; };
-		C01C162018254747005AFACE /* CWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWAppDelegate.h; sourceTree = "<group>"; };
-		C01C162118254747005AFACE /* CWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWAppDelegate.m; sourceTree = "<group>"; };
 		C01C162418254747005AFACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C01C162618254747005AFACE /* CWMainCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWMainCollectionViewController.h; sourceTree = "<group>"; };
 		C01C162718254747005AFACE /* CWMainCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWMainCollectionViewController.m; sourceTree = "<group>"; };
@@ -340,15 +337,14 @@
 			isa = PBXGroup;
 			children = (
 				C01C13042930F1770011FAE1 /* Jingle_SwiftUIApp.swift */,
-				C01C13062930F1870011FAE1 /* CategoryRow.swift */,
 				C01C13072930F1870011FAE1 /* ContentView.swift */,
 				C01C13092930F1870011FAE1 /* InstrumentCell.swift */,
 				C01C13082930F1870011FAE1 /* ScrollingStackModifier.swift */,
+				C01C13132930F3B20011FAE1 /* SettingsStore.swift */,
+				C01C13172930F7720011FAE1 /* Instrument.swift */,
 				C0994BD0182C3592009BCE6F /* Motion */,
 				C01C130E2930F19B0011FAE1 /* Motion */,
 				C02E92F81FD2EE96000678B8 /* Audio */,
-				C01C162018254747005AFACE /* CWAppDelegate.h */,
-				C01C162118254747005AFACE /* CWAppDelegate.m */,
 				C0994BD1182C35A0009BCE6F /* View Controllers */,
 				C02E92F71FD2EE79000678B8 /* UI Building Blocks */,
 				C01C162918254747005AFACE /* Images.xcassets */,
@@ -774,17 +770,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C01C13182930F7720011FAE1 /* Instrument.swift in Sources */,
 				C0A64919182EEBB4007F7D17 /* UIView+AnimateValueChange.m in Sources */,
 				C01C13052930F1770011FAE1 /* Jingle_SwiftUIApp.swift in Sources */,
-				C01C130A2930F1870011FAE1 /* CategoryRow.swift in Sources */,
 				C01C16511825662E005AFACE /* CWInstrumentFactory.m in Sources */,
-				C01C173918256F9E005AFACE /* MotionTracker.m in Sources */,
 				C01C173618256F8C005AFACE /* AccelerometerFilter.m in Sources */,
-				C01C162218254747005AFACE /* CWAppDelegate.m in Sources */,
 				C01C130B2930F1870011FAE1 /* ContentView.swift in Sources */,
 				C01C161E18254747005AFACE /* main.m in Sources */,
 				C01C164B18255DB0005AFACE /* CWRadialGradientView.m in Sources */,
 				C01C13122930F19B0011FAE1 /* MotionFilter.swift in Sources */,
+				C01C13142930F3B20011FAE1 /* SettingsStore.swift in Sources */,
 				C01C17491825793B005AFACE /* CWAudioHandler.mm in Sources */,
 				C01C162818254747005AFACE /* CWMainCollectionViewController.m in Sources */,
 				C01C16541825665F005AFACE /* CWInstrument.mm in Sources */,
@@ -805,7 +800,6 @@
 				C06F224F1BD52913007E67AB /* UIView+AnimateValueChange.m in Sources */,
 				C06F22501BD52913007E67AB /* CWInstrumentFactory.m in Sources */,
 				C06F22541BD52913007E67AB /* AccelerometerFilter.m in Sources */,
-				C06F22561BD52913007E67AB /* CWAppDelegate.m in Sources */,
 				C06F22571BD52913007E67AB /* main.m in Sources */,
 				C06F22581BD52913007E67AB /* CWRadialGradientView.m in Sources */,
 				C06F225B1BD52913007E67AB /* CWAudioHandler.mm in Sources */,
@@ -984,7 +978,7 @@
 				GCC_PREFIX_HEADER = "CWShaker/CWShaker-Prefix.pch";
 				INFOPLIST_FILE = "CWShaker/CWShaker-Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1022,7 +1016,7 @@
 				GCC_PREFIX_HEADER = "CWShaker/CWShaker-Prefix.pch";
 				INFOPLIST_FILE = "CWShaker/CWShaker-Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

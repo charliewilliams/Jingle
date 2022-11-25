@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 Charlie Williams. All rights reserved.
 //
 
+@import Foundation;
 #import "MotionTracker.h"
 
 struct InstrumentData {
@@ -19,15 +20,15 @@ struct InstrumentData {
 
 @interface CWAudioHandler : NSObject
 
-@property (nonatomic, readonly) NSURL *audioHostURL;
+@property (nonatomic, readonly, nonnull) NSURL *audioHostURL;
 
-+ (CWAudioHandler *)sharedHandler;
++ (nonnull CWAudioHandler *)sharedHandler;
 - (void)start;
 - (void)stop;
-- (void)setActiveInstrument:(CWInstrument *)newInstrument;
-- (void)playExampleSoundForInstrument:(CWInstrument *)instrument;
-- (void)accelerometerDidUpdateWithData:(struct AccelerometerData *)data;
-- (void)audioSessionDidChangeInterruptionType:(NSNotification *)notification;
-- (void)audioSessionDidChangeRoute:(NSNotification *)notification;
+- (void)setActiveInstrument:(nonnull CWInstrument *)newInstrument;
+- (void)playExampleSoundForInstrument:(nonnull CWInstrument *)instrument;
+- (void)accelerometerDidUpdateWithData:(nonnull struct AccelerometerData *)data;
+- (void)audioSessionDidChangeInterruptionType:(nonnull NSNotification *)notification;
+- (void)audioSessionDidChangeRoute:(nonnull NSNotification *)notification;
 
 @end

@@ -6,6 +6,10 @@
 //  Copyright (c) 2013 C Williams. All rights reserved.
 //
 
+@import Foundation;
+//@import CoreMotion;
+@import UIKit;
+
 typedef enum Axis {
     none = -1,
     x,

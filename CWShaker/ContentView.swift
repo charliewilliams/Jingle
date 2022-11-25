@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-fileprivate var scrollingHStackModifier = ScrollingHStackModifier(items: AudioHandler.shared.instruments.count, itemWidth: 250, itemSpacing: 30)
+fileprivate var scrollingHStackModifier = ScrollingHStackModifier(items: Sound.allCases.count, itemWidth: 250, itemSpacing: 30)
 
 fileprivate var activeIndex = 0
 
@@ -20,6 +20,7 @@ struct ContentView: View {
     init() {
         scrollingHStackModifier.onUpdateIndex = { index in
             activeIndex = index
+            /// TODO set active instrument here
         }
     }
     
@@ -43,7 +44,7 @@ struct ContentView: View {
                     .padding(.bottom, 75)
                 
                 HStack(alignment: .center, spacing: 30) {
-                    ForEach(AudioHandler.shared.instruments) {
+                    ForEach(Sound.allCases) {
                         InstrumentCell(instrument: $0)
                             .frame(width: 250, height: 400, alignment: .center)
                             .cornerRadius(10)
@@ -86,7 +87,7 @@ struct ContentView: View {
         }
         .onAppear {
             motion.addOnMotion { mag in
-                AudioHandler.shared.instruments[activeIndex].motion(magnitude: mag)
+                CWAudioHandler.shared().instruments[activeIndex].motion(magnitude: mag)
             }
             motion.start()
         }
