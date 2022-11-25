@@ -10,7 +10,6 @@
 #import <AudioUnit/AudioUnit.h>
 #import <AudioUnit/AudioComponent.h>
 #import <AudioUnit/AudioUnitProperties.h>
-#import <Crashlytics/Crashlytics.h>
 #import "CWAudioHandler.h"
 #import "CWInstrumentFactory.h"
 #import "iSTK.h"

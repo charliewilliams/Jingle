@@ -6,8 +6,6 @@
 //  Copyright (c) 2013 Charlie Williams. All rights reserved.
 //
 
-#import <Fabric/Fabric.h>
-#import <Crashlytics/Crashlytics.h>
 #import "CWAppDelegate.h"
 #import "CWAudioHandler.h"
 
@@ -15,8 +13,6 @@
 @implementation CWAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
-    [Fabric with:@[[Crashlytics class]]];
 
     [self.store registerDefaults:@{kPlayAudioInBackgroundKey:@YES}];
 

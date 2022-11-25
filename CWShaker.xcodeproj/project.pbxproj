@@ -3,22 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		9EC966B518368E39002DCDAF /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9EC966B418368E39002DCDAF /* FontAwesome.otf */; };
-		9EC966BC183699AB002DCDAF /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC966BB183699AB002DCDAF /* Social.framework */; };
-		9EC966BE18369C2E002DCDAF /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC966BD18369C2E002DCDAF /* Accounts.framework */; };
-		9EC966C318369D69002DCDAF /* CWTwitterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC966C018369D69002DCDAF /* CWTwitterRequest.m */; };
-		9EC966C418369D69002DCDAF /* CWTwitterRequestFollow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC966C218369D69002DCDAF /* CWTwitterRequestFollow.m */; };
 		C00510471BE17EBA0064AE75 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00510461BE17EBA0064AE75 /* Launch Screen.storyboard */; };
-		C012F4911FD47B25001BAF74 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C012F48F1FD47B24001BAF74 /* Crashlytics.framework */; };
-		C012F4921FD47B25001BAF74 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C012F48F1FD47B24001BAF74 /* Crashlytics.framework */; };
-		C012F4931FD47B25001BAF74 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C012F4901FD47B24001BAF74 /* Fabric.framework */; };
-		C012F4941FD47B25001BAF74 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C012F4901FD47B24001BAF74 /* Fabric.framework */; };
+		C01C13052930F1770011FAE1 /* Jingle_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13042930F1770011FAE1 /* Jingle_SwiftUIApp.swift */; };
+		C01C130A2930F1870011FAE1 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13062930F1870011FAE1 /* CategoryRow.swift */; };
+		C01C130B2930F1870011FAE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13072930F1870011FAE1 /* ContentView.swift */; };
+		C01C130C2930F1870011FAE1 /* ScrollingStackModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13082930F1870011FAE1 /* ScrollingStackModifier.swift */; };
+		C01C130D2930F1870011FAE1 /* InstrumentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13092930F1870011FAE1 /* InstrumentCell.swift */; };
+		C01C13112930F19B0011FAE1 /* Motion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C130F2930F19B0011FAE1 /* Motion.swift */; };
+		C01C13122930F19B0011FAE1 /* MotionFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13102930F19B0011FAE1 /* MotionFilter.swift */; };
 		C01C161218254747005AFACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01C161118254747005AFACE /* Foundation.framework */; };
-		C01C161418254747005AFACE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01C161318254747005AFACE /* CoreGraphics.framework */; };
 		C01C161618254747005AFACE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01C161518254747005AFACE /* UIKit.framework */; };
 		C01C161C18254747005AFACE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C01C161A18254747005AFACE /* InfoPlist.strings */; };
 		C01C161E18254747005AFACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C161D18254747005AFACE /* main.m */; };
@@ -35,14 +33,9 @@
 		C01C173E18256FE4005AFACE /* mo_audio.mm in Sources */ = {isa = PBXBuildFile; fileRef = C01C173C18256FE4005AFACE /* mo_audio.mm */; };
 		C01C174018256FFE005AFACE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01C173F18256FFE005AFACE /* AudioToolbox.framework */; };
 		C01C17491825793B005AFACE /* CWAudioHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = C01C17481825793B005AFACE /* CWAudioHandler.mm */; };
-		C01DE4C01BD97A1400F421EA /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01DE4BF1BD97A1400F421EA /* GameController.framework */; };
 		C02E92F51FD2A7F7000678B8 /* libiSTK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C02E92F01FD2A519000678B8 /* libiSTK.a */; };
 		C036C1FA183ACA0100ABF2B2 /* CWMainCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C036C1F9183ACA0100ABF2B2 /* CWMainCollectionViewFlowLayout.m */; };
-		C0417FF81843EE04007184CD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0417FF71843EE03007184CD /* SystemConfiguration.framework */; };
-		C0417FFA1843EE09007184CD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0417FF91843EE09007184CD /* Security.framework */; };
 		C05C9509182AF4E500541624 /* UIView+Glow.m in Sources */ = {isa = PBXBuildFile; fileRef = C05C9506182AF4E500541624 /* UIView+Glow.m */; };
-		C05C950C182AF6E400541624 /* CWInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05C950B182AF6E400541624 /* CWInfoViewController.m */; };
-		C05C950F182AFBBB00541624 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05C950E182AFBBB00541624 /* StoreKit.framework */; };
 		C06F224F1BD52913007E67AB /* UIView+AnimateValueChange.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A64918182EEBB4007F7D17 /* UIView+AnimateValueChange.m */; };
 		C06F22501BD52913007E67AB /* CWInstrumentFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C16501825662E005AFACE /* CWInstrumentFactory.m */; };
 		C06F22541BD52913007E67AB /* AccelerometerFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C173518256F8C005AFACE /* AccelerometerFilter.m */; };
@@ -51,25 +44,13 @@
 		C06F22581BD52913007E67AB /* CWRadialGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C164A18255DB0005AFACE /* CWRadialGradientView.m */; };
 		C06F225B1BD52913007E67AB /* CWAudioHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = C01C17481825793B005AFACE /* CWAudioHandler.mm */; };
 		C06F225C1BD52913007E67AB /* CWMainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C162718254747005AFACE /* CWMainCollectionViewController.m */; };
-		C06F225D1BD52913007E67AB /* CWTwitterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC966C018369D69002DCDAF /* CWTwitterRequest.m */; };
 		C06F225E1BD52913007E67AB /* CWInstrument.mm in Sources */ = {isa = PBXBuildFile; fileRef = C01C16531825665F005AFACE /* CWInstrument.mm */; };
-		C06F225F1BD52913007E67AB /* CWInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05C950B182AF6E400541624 /* CWInfoViewController.m */; };
 		C06F22611BD52913007E67AB /* UIView+Glow.m in Sources */ = {isa = PBXBuildFile; fileRef = C05C9506182AF4E500541624 /* UIView+Glow.m */; };
 		C06F22631BD52913007E67AB /* mo_audio.mm in Sources */ = {isa = PBXBuildFile; fileRef = C01C173C18256FE4005AFACE /* mo_audio.mm */; };
 		C06F22641BD52913007E67AB /* CWInstrumentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C164D182565A0005AFACE /* CWInstrumentCollectionViewCell.m */; };
-		C06F22681BD52913007E67AB /* CWTwitterRequestFollow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC966C218369D69002DCDAF /* CWTwitterRequestFollow.m */; };
 		C06F22691BD52913007E67AB /* CWMainCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C036C1F9183ACA0100ABF2B2 /* CWMainCollectionViewFlowLayout.m */; };
-		C06F226D1BD52913007E67AB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09DAB571A2CD2AA00CB5811 /* QuartzCore.framework */; };
-		C06F226E1BD52913007E67AB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09DAB531A2CD29800CB5811 /* MobileCoreServices.framework */; };
-		C06F22701BD52913007E67AB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09DAB4F1A2CD28100CB5811 /* MediaPlayer.framework */; };
-		C06F22731BD52913007E67AB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09DAB491A2CD25900CB5811 /* CoreLocation.framework */; };
-		C06F22741BD52913007E67AB /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09DAB471A2CD24700CB5811 /* AdSupport.framework */; };
-		C06F22761BD52913007E67AB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0417FF91843EE09007184CD /* Security.framework */; };
-		C06F22771BD52913007E67AB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0417FF71843EE03007184CD /* SystemConfiguration.framework */; };
 		C06F22791BD52913007E67AB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0994BE3182CEBD9009BCE6F /* AVFoundation.framework */; };
 		C06F227A1BD52913007E67AB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01C173F18256FFE005AFACE /* AudioToolbox.framework */; };
-		C06F227B1BD52913007E67AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01C161318254747005AFACE /* CoreGraphics.framework */; };
-		C06F227C1BD52913007E67AB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05C950E182AFBBB00541624 /* StoreKit.framework */; };
 		C06F227D1BD52913007E67AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01C161518254747005AFACE /* UIKit.framework */; };
 		C06F227E1BD52913007E67AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01C161118254747005AFACE /* Foundation.framework */; };
 		C06F22801BD52913007E67AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01C162918254747005AFACE /* Images.xcassets */; };
@@ -78,15 +59,6 @@
 		C06F228C1BD52BA3007E67AB /* MotionTracker_TV.m in Sources */ = {isa = PBXBuildFile; fileRef = C06F228B1BD52BA3007E67AB /* MotionTracker_TV.m */; };
 		C06F22F81BD56634007E67AB /* MainTV.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C06F22F71BD56634007E67AB /* MainTV.storyboard */; };
 		C0994BE4182CEBD9009BCE6F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0994BE3182CEBD9009BCE6F /* AVFoundation.framework */; };
-		C09DAB481A2CD24700CB5811 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09DAB471A2CD24700CB5811 /* AdSupport.framework */; };
-		C09DAB4A1A2CD25900CB5811 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09DAB491A2CD25900CB5811 /* CoreLocation.framework */; };
-		C09DAB4C1A2CD26000CB5811 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09DAB4B1A2CD26000CB5811 /* CoreTelephony.framework */; };
-		C09DAB4E1A2CD26D00CB5811 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09DAB4D1A2CD26D00CB5811 /* iAd.framework */; };
-		C09DAB501A2CD28100CB5811 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09DAB4F1A2CD28100CB5811 /* MediaPlayer.framework */; };
-		C09DAB521A2CD28E00CB5811 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09DAB511A2CD28E00CB5811 /* MessageUI.framework */; };
-		C09DAB541A2CD29800CB5811 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09DAB531A2CD29800CB5811 /* MobileCoreServices.framework */; };
-		C09DAB581A2CD2AA00CB5811 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09DAB571A2CD2AA00CB5811 /* QuartzCore.framework */; };
-		C09DAB591A2CD2BE00CB5811 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC966B9183698F6002DCDAF /* Twitter.framework */; };
 		C0A00D9B1BD98C45000A03DA /* Sleigh_Bells.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A00D9A1BD98C45000A03DA /* Sleigh_Bells.png */; };
 		C0A00D9D1BD98C66000A03DA /* Tambourine.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A00D9C1BD98C66000A03DA /* Tambourine.png */; };
 		C0A00DA01BD98C6F000A03DA /* Space_Water.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A00D9E1BD98C6F000A03DA /* Space_Water.png */; };
@@ -134,19 +106,17 @@
 
 /* Begin PBXFileReference section */
 		9EC966B418368E39002DCDAF /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
-		9EC966B9183698F6002DCDAF /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
-		9EC966BB183699AB002DCDAF /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		9EC966BD18369C2E002DCDAF /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
-		9EC966BF18369D69002DCDAF /* CWTwitterRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTwitterRequest.h; sourceTree = "<group>"; };
-		9EC966C018369D69002DCDAF /* CWTwitterRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTwitterRequest.m; sourceTree = "<group>"; };
-		9EC966C118369D69002DCDAF /* CWTwitterRequestFollow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTwitterRequestFollow.h; sourceTree = "<group>"; };
-		9EC966C218369D69002DCDAF /* CWTwitterRequestFollow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTwitterRequestFollow.m; sourceTree = "<group>"; };
 		C00510461BE17EBA0064AE75 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		C012F48F1FD47B24001BAF74 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
-		C012F4901FD47B24001BAF74 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
+		C01C13032930F1760011FAE1 /* Jingle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jingle-Bridging-Header.h"; sourceTree = "<group>"; };
+		C01C13042930F1770011FAE1 /* Jingle_SwiftUIApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jingle_SwiftUIApp.swift; sourceTree = "<group>"; };
+		C01C13062930F1870011FAE1 /* CategoryRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		C01C13072930F1870011FAE1 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C01C13082930F1870011FAE1 /* ScrollingStackModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingStackModifier.swift; sourceTree = "<group>"; };
+		C01C13092930F1870011FAE1 /* InstrumentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentCell.swift; sourceTree = "<group>"; };
+		C01C130F2930F19B0011FAE1 /* Motion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Motion.swift; sourceTree = "<group>"; };
+		C01C13102930F19B0011FAE1 /* MotionFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionFilter.swift; sourceTree = "<group>"; };
 		C01C160E18254747005AFACE /* Jingle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jingle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01C161118254747005AFACE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C01C161318254747005AFACE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C01C161518254747005AFACE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C01C161918254747005AFACE /* CWShaker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CWShaker-Info.plist"; sourceTree = "<group>"; };
 		C01C161B18254747005AFACE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -273,31 +243,16 @@
 		C01C173F18256FFE005AFACE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		C01C17471825793B005AFACE /* CWAudioHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWAudioHandler.h; sourceTree = "<group>"; };
 		C01C17481825793B005AFACE /* CWAudioHandler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CWAudioHandler.mm; sourceTree = "<group>"; };
-		C01DE4BF1BD97A1400F421EA /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
 		C02E92EA1FD2A519000678B8 /* iSTK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iSTK.xcodeproj; path = "../3rd-Party/istk/iSTK.xcodeproj"; sourceTree = "<group>"; };
 		C02E92F61FD2EBD3000678B8 /* Jingle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jingle.entitlements; sourceTree = "<group>"; };
 		C036C1F8183ACA0100ABF2B2 /* CWMainCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWMainCollectionViewFlowLayout.h; sourceTree = "<group>"; };
 		C036C1F9183ACA0100ABF2B2 /* CWMainCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWMainCollectionViewFlowLayout.m; sourceTree = "<group>"; };
-		C0417FF71843EE03007184CD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		C0417FF91843EE09007184CD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		C05C9505182AF4E500541624 /* UIView+Glow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Glow.h"; sourceTree = "<group>"; };
 		C05C9506182AF4E500541624 /* UIView+Glow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Glow.m"; sourceTree = "<group>"; };
-		C05C950A182AF6E400541624 /* CWInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWInfoViewController.h; sourceTree = "<group>"; };
-		C05C950B182AF6E400541624 /* CWInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWInfoViewController.m; sourceTree = "<group>"; };
-		C05C950E182AFBBB00541624 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		C06F22881BD52913007E67AB /* JingleTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JingleTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06F228B1BD52BA3007E67AB /* MotionTracker_TV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionTracker_TV.m; sourceTree = "<group>"; };
 		C06F22F71BD56634007E67AB /* MainTV.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainTV.storyboard; sourceTree = "<group>"; };
-		C0994BE1182CEBD2009BCE6F /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		C0994BE3182CEBD9009BCE6F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		C09DAB471A2CD24700CB5811 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		C09DAB491A2CD25900CB5811 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		C09DAB4B1A2CD26000CB5811 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		C09DAB4D1A2CD26D00CB5811 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
-		C09DAB4F1A2CD28100CB5811 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		C09DAB511A2CD28E00CB5811 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		C09DAB531A2CD29800CB5811 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		C09DAB571A2CD2AA00CB5811 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C0A00D9A1BD98C45000A03DA /* Sleigh_Bells.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sleigh_Bells.png; path = Images.xcassets/Sleigh_Bells.imageset/Sleigh_Bells.png; sourceTree = "<group>"; };
 		C0A00D9C1BD98C66000A03DA /* Tambourine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tambourine.png; path = Images.xcassets/Tambourine.imageset/Tambourine.png; sourceTree = "<group>"; };
 		C0A00D9E1BD98C6F000A03DA /* Space_Water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Space_Water.png; path = Images.xcassets/Space_Water.imageset/Space_Water.png; sourceTree = "<group>"; };
@@ -319,27 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C02E92F51FD2A7F7000678B8 /* libiSTK.a in Frameworks */,
-				C09DAB591A2CD2BE00CB5811 /* Twitter.framework in Frameworks */,
-				9EC966BC183699AB002DCDAF /* Social.framework in Frameworks */,
-				C09DAB581A2CD2AA00CB5811 /* QuartzCore.framework in Frameworks */,
-				C09DAB541A2CD29800CB5811 /* MobileCoreServices.framework in Frameworks */,
-				C09DAB521A2CD28E00CB5811 /* MessageUI.framework in Frameworks */,
-				C09DAB501A2CD28100CB5811 /* MediaPlayer.framework in Frameworks */,
-				C09DAB4E1A2CD26D00CB5811 /* iAd.framework in Frameworks */,
-				C09DAB4C1A2CD26000CB5811 /* CoreTelephony.framework in Frameworks */,
-				C09DAB4A1A2CD25900CB5811 /* CoreLocation.framework in Frameworks */,
-				C09DAB481A2CD24700CB5811 /* AdSupport.framework in Frameworks */,
-				C0417FFA1843EE09007184CD /* Security.framework in Frameworks */,
-				C0417FF81843EE04007184CD /* SystemConfiguration.framework in Frameworks */,
-				C012F4911FD47B25001BAF74 /* Crashlytics.framework in Frameworks */,
-				9EC966BE18369C2E002DCDAF /* Accounts.framework in Frameworks */,
 				C0994BE4182CEBD9009BCE6F /* AVFoundation.framework in Frameworks */,
 				C01C174018256FFE005AFACE /* AudioToolbox.framework in Frameworks */,
-				C01C161418254747005AFACE /* CoreGraphics.framework in Frameworks */,
-				C05C950F182AFBBB00541624 /* StoreKit.framework in Frameworks */,
 				C01C161618254747005AFACE /* UIKit.framework in Frameworks */,
 				C01C161218254747005AFACE /* Foundation.framework in Frameworks */,
-				C012F4931FD47B25001BAF74 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,21 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0AF733B1FD4998B00D5BB90 /* libiSTK.a in Frameworks */,
-				C01DE4C01BD97A1400F421EA /* GameController.framework in Frameworks */,
-				C06F226D1BD52913007E67AB /* QuartzCore.framework in Frameworks */,
-				C06F226E1BD52913007E67AB /* MobileCoreServices.framework in Frameworks */,
-				C06F22701BD52913007E67AB /* MediaPlayer.framework in Frameworks */,
-				C06F22731BD52913007E67AB /* CoreLocation.framework in Frameworks */,
-				C06F22741BD52913007E67AB /* AdSupport.framework in Frameworks */,
-				C06F22761BD52913007E67AB /* Security.framework in Frameworks */,
-				C06F22771BD52913007E67AB /* SystemConfiguration.framework in Frameworks */,
 				C06F22791BD52913007E67AB /* AVFoundation.framework in Frameworks */,
-				C012F4921FD47B25001BAF74 /* Crashlytics.framework in Frameworks */,
 				C06F227A1BD52913007E67AB /* AudioToolbox.framework in Frameworks */,
-				C06F227B1BD52913007E67AB /* CoreGraphics.framework in Frameworks */,
-				C06F227C1BD52913007E67AB /* StoreKit.framework in Frameworks */,
 				C06F227D1BD52913007E67AB /* UIKit.framework in Frameworks */,
-				C012F4941FD47B25001BAF74 /* Fabric.framework in Frameworks */,
 				C06F227E1BD52913007E67AB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,15 +296,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9EC966C518369D6D002DCDAF /* Twitter */ = {
+		C01C130E2930F19B0011FAE1 /* Motion */ = {
 			isa = PBXGroup;
 			children = (
-				9EC966BF18369D69002DCDAF /* CWTwitterRequest.h */,
-				9EC966C018369D69002DCDAF /* CWTwitterRequest.m */,
-				9EC966C118369D69002DCDAF /* CWTwitterRequestFollow.h */,
-				9EC966C218369D69002DCDAF /* CWTwitterRequestFollow.m */,
+				C01C130F2930F19B0011FAE1 /* Motion.swift */,
+				C01C13102930F19B0011FAE1 /* MotionFilter.swift */,
 			);
-			name = Twitter;
+			path = Motion;
 			sourceTree = "<group>";
 		};
 		C01C160518254747005AFACE = {
@@ -404,26 +328,9 @@
 		C01C161018254747005AFACE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C01DE4BF1BD97A1400F421EA /* GameController.framework */,
-				C09DAB571A2CD2AA00CB5811 /* QuartzCore.framework */,
-				C09DAB531A2CD29800CB5811 /* MobileCoreServices.framework */,
-				C09DAB511A2CD28E00CB5811 /* MessageUI.framework */,
-				C09DAB4F1A2CD28100CB5811 /* MediaPlayer.framework */,
-				C09DAB4D1A2CD26D00CB5811 /* iAd.framework */,
-				C09DAB4B1A2CD26000CB5811 /* CoreTelephony.framework */,
-				C09DAB491A2CD25900CB5811 /* CoreLocation.framework */,
-				C09DAB471A2CD24700CB5811 /* AdSupport.framework */,
-				C0417FF91843EE09007184CD /* Security.framework */,
-				C0417FF71843EE03007184CD /* SystemConfiguration.framework */,
-				9EC966BD18369C2E002DCDAF /* Accounts.framework */,
-				9EC966BB183699AB002DCDAF /* Social.framework */,
-				9EC966B9183698F6002DCDAF /* Twitter.framework */,
 				C0994BE3182CEBD9009BCE6F /* AVFoundation.framework */,
-				C0994BE1182CEBD2009BCE6F /* JavaScriptCore.framework */,
-				C05C950E182AFBBB00541624 /* StoreKit.framework */,
 				C01C173F18256FFE005AFACE /* AudioToolbox.framework */,
 				C01C161118254747005AFACE /* Foundation.framework */,
-				C01C161318254747005AFACE /* CoreGraphics.framework */,
 				C01C161518254747005AFACE /* UIKit.framework */,
 			);
 			name = Frameworks;
@@ -432,20 +339,24 @@
 		C01C161718254747005AFACE /* CWShaker */ = {
 			isa = PBXGroup;
 			children = (
+				C01C13042930F1770011FAE1 /* Jingle_SwiftUIApp.swift */,
+				C01C13062930F1870011FAE1 /* CategoryRow.swift */,
+				C01C13072930F1870011FAE1 /* ContentView.swift */,
+				C01C13092930F1870011FAE1 /* InstrumentCell.swift */,
+				C01C13082930F1870011FAE1 /* ScrollingStackModifier.swift */,
 				C0994BD0182C3592009BCE6F /* Motion */,
+				C01C130E2930F19B0011FAE1 /* Motion */,
 				C02E92F81FD2EE96000678B8 /* Audio */,
 				C01C162018254747005AFACE /* CWAppDelegate.h */,
 				C01C162118254747005AFACE /* CWAppDelegate.m */,
 				C0994BD1182C35A0009BCE6F /* View Controllers */,
 				C02E92F71FD2EE79000678B8 /* UI Building Blocks */,
-				9EC966C518369D6D002DCDAF /* Twitter */,
 				C01C162918254747005AFACE /* Images.xcassets */,
 				C0D566781BD99A0800CE0B19 /* TVMedia.xcassets */,
-				C012F48F1FD47B24001BAF74 /* Crashlytics.framework */,
-				C012F4901FD47B24001BAF74 /* Fabric.framework */,
 				C0A00D981BD98C36000A03DA /* TV images */,
 				C01C173018256F5F005AFACE /* iSTK */,
 				C01C161818254747005AFACE /* Supporting Files */,
+				C01C13032930F1760011FAE1 /* Jingle-Bridging-Header.h */,
 			);
 			path = CWShaker;
 			sourceTree = "<group>";
@@ -646,8 +557,6 @@
 				C036C1F9183ACA0100ABF2B2 /* CWMainCollectionViewFlowLayout.m */,
 				C01C164C182565A0005AFACE /* CWInstrumentCollectionViewCell.h */,
 				C01C164D182565A0005AFACE /* CWInstrumentCollectionViewCell.m */,
-				C05C950A182AF6E400541624 /* CWInfoViewController.h */,
-				C05C950B182AF6E400541624 /* CWInfoViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -679,7 +588,6 @@
 				C01C160B18254747005AFACE /* Frameworks */,
 				C01C160C18254747005AFACE /* Resources */,
 				C08B727B1FD300F9000AF5A4 /* Bump build number */,
-				C012F48E1FD47B07001BAF74 /* Fabric */,
 			);
 			buildRules = (
 			);
@@ -718,11 +626,12 @@
 			attributes = {
 				CLASSPREFIX = CW;
 				LastTestingUpgradeCheck = 0700;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 1320;
 				ORGANIZATIONNAME = "Charlie Williams";
 				TargetAttributes = {
 					C01C160D18254747005AFACE = {
 						DevelopmentTeam = N2WM6EN8GQ;
+						LastSwiftMigration = 1410;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -753,8 +662,8 @@
 				};
 			};
 			buildConfigurationList = C01C160918254747005AFACE /* Build configuration list for PBXProject "CWShaker" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -831,20 +740,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C012F48E1FD47B07001BAF74 /* Fabric */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = Fabric;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "./Fabric.framework/run 3bf576a7e0e1a634037b4c20ef79f63196a6eb0f cdb8002da5b7da3cfd6f90faa82a27e0d488250d853761f7c834a9200ca71c52";
-		};
 		C06F22841BD52913007E67AB /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -870,7 +765,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./bump_build_number.sh ${SRCROOT}/CWShaker/CWShaker-Info.plist";
+			shellScript = "./bump_build_number.sh ${SRCROOT}/CWShaker/CWShaker-Info.plist\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -880,21 +775,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0A64919182EEBB4007F7D17 /* UIView+AnimateValueChange.m in Sources */,
+				C01C13052930F1770011FAE1 /* Jingle_SwiftUIApp.swift in Sources */,
+				C01C130A2930F1870011FAE1 /* CategoryRow.swift in Sources */,
 				C01C16511825662E005AFACE /* CWInstrumentFactory.m in Sources */,
 				C01C173918256F9E005AFACE /* MotionTracker.m in Sources */,
 				C01C173618256F8C005AFACE /* AccelerometerFilter.m in Sources */,
 				C01C162218254747005AFACE /* CWAppDelegate.m in Sources */,
+				C01C130B2930F1870011FAE1 /* ContentView.swift in Sources */,
 				C01C161E18254747005AFACE /* main.m in Sources */,
 				C01C164B18255DB0005AFACE /* CWRadialGradientView.m in Sources */,
+				C01C13122930F19B0011FAE1 /* MotionFilter.swift in Sources */,
 				C01C17491825793B005AFACE /* CWAudioHandler.mm in Sources */,
 				C01C162818254747005AFACE /* CWMainCollectionViewController.m in Sources */,
-				9EC966C318369D69002DCDAF /* CWTwitterRequest.m in Sources */,
 				C01C16541825665F005AFACE /* CWInstrument.mm in Sources */,
-				C05C950C182AF6E400541624 /* CWInfoViewController.m in Sources */,
+				C01C13112930F19B0011FAE1 /* Motion.swift in Sources */,
 				C05C9509182AF4E500541624 /* UIView+Glow.m in Sources */,
 				C01C173E18256FE4005AFACE /* mo_audio.mm in Sources */,
+				C01C130D2930F1870011FAE1 /* InstrumentCell.swift in Sources */,
+				C01C130C2930F1870011FAE1 /* ScrollingStackModifier.swift in Sources */,
 				C01C164E182565A0005AFACE /* CWInstrumentCollectionViewCell.m in Sources */,
-				9EC966C418369D69002DCDAF /* CWTwitterRequestFollow.m in Sources */,
 				C036C1FA183ACA0100ABF2B2 /* CWMainCollectionViewFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -911,14 +810,11 @@
 				C06F22581BD52913007E67AB /* CWRadialGradientView.m in Sources */,
 				C06F225B1BD52913007E67AB /* CWAudioHandler.mm in Sources */,
 				C06F225C1BD52913007E67AB /* CWMainCollectionViewController.m in Sources */,
-				C06F225D1BD52913007E67AB /* CWTwitterRequest.m in Sources */,
 				C06F225E1BD52913007E67AB /* CWInstrument.mm in Sources */,
-				C06F225F1BD52913007E67AB /* CWInfoViewController.m in Sources */,
 				C06F22611BD52913007E67AB /* UIView+Glow.m in Sources */,
 				C06F228C1BD52BA3007E67AB /* MotionTracker_TV.m in Sources */,
 				C06F22631BD52913007E67AB /* mo_audio.mm in Sources */,
 				C06F22641BD52913007E67AB /* CWInstrumentCollectionViewCell.m in Sources */,
-				C06F22681BD52913007E67AB /* CWTwitterRequestFollow.m in Sources */,
 				C06F22691BD52913007E67AB /* CWMainCollectionViewFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -962,6 +858,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -970,14 +867,17 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1001,9 +901,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LLVM_LTO = NO;
-				LLVM_VECTORIZE_LOOPS = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1017,6 +916,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1025,14 +925,17 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1051,9 +954,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LLVM_LTO = NO;
-				LLVM_VECTORIZE_LOOPS = YES;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
@@ -1067,10 +969,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Jingle.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1080,11 +983,21 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CWShaker/CWShaker-Prefix.pch";
 				INFOPLIST_FILE = "CWShaker/CWShaker-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 2.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.charliewilliams.shakers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "CWShaker/Jingle-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1094,10 +1007,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Jingle.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1107,11 +1021,20 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CWShaker/CWShaker-Prefix.pch";
 				INFOPLIST_FILE = "CWShaker/CWShaker-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 2.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.charliewilliams.shakers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "CWShaker/Jingle-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1134,7 +1057,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.charliewilliams.shakers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1156,7 +1079,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.charliewilliams.shakers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -62,23 +62,27 @@
     }
     
     [self.motionManager startAccelerometerUpdatesToQueue:self.accelQueue withHandler:^(CMAccelerometerData *accelerometerData, NSError *error) {
-        
-        [filter addAcceleration:accelerometerData.acceleration];
-        
-        [self updateZeroCrossingWithX:filter.x y:filter.y z:filter.z];
-        
-        Axis eventAxis = [self findDirectionChangeWithX:filter.x y:filter.y z:filter.z];
-        
-        data.axis = eventAxis;
-        data.magnitude = [self magnitudeOfX:filter.x y:filter.y z:filter.z];
-        data.direction = [self absMaxOfX:filter.x y:filter.y z:filter.z] > 0;
-        
-        [[CWAudioHandler sharedHandler] accelerometerDidUpdateWithData:&data];
-        
-        lastValues[0] = filter.x;
-        lastValues[1] = filter.y;
-        lastValues[2] = filter.z;
+        [self accelerometerDidUpdateWithData:accelerometerData];
     }];
+}
+
+- (void)accelerometerDidUpdateWithData:(CMAccelerometerData *)accelerometerData {
+    
+    [filter addAcceleration:accelerometerData.acceleration];
+    
+    [self updateZeroCrossingWithX:filter.x y:filter.y z:filter.z];
+    
+    Axis eventAxis = [self findDirectionChangeWithX:filter.x y:filter.y z:filter.z];
+    
+    data.axis = eventAxis;
+    data.magnitude = [self magnitudeOfX:filter.x y:filter.y z:filter.z];
+    data.direction = [self absMaxOfX:filter.x y:filter.y z:filter.z] > 0;
+    
+    [[CWAudioHandler sharedHandler] accelerometerDidUpdateWithData:&data];
+    
+    lastValues[0] = filter.x;
+    lastValues[1] = filter.y;
+    lastValues[2] = filter.z;
 }
 
 - (void)updateZeroCrossingWithX:(CGFloat)inx y:(CGFloat)iny z:(CGFloat)inz {
