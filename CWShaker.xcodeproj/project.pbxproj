@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9EC966B518368E39002DCDAF /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9EC966B418368E39002DCDAF /* FontAwesome.otf */; };
 		C00510471BE17EBA0064AE75 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00510461BE17EBA0064AE75 /* Launch Screen.storyboard */; };
 		C0106E422937A8F100E42523 /* MotionTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C173818256F9E005AFACE /* MotionTracker.m */; };
 		C01C13052930F1770011FAE1 /* Jingle_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13042930F1770011FAE1 /* Jingle_SwiftUIApp.swift */; };
@@ -40,7 +39,6 @@
 		C06F227E1BD52913007E67AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01C161118254747005AFACE /* Foundation.framework */; };
 		C06F22801BD52913007E67AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01C162918254747005AFACE /* Images.xcassets */; };
 		C06F22811BD52913007E67AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C01C161A18254747005AFACE /* InfoPlist.strings */; };
-		C06F22821BD52913007E67AB /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9EC966B418368E39002DCDAF /* FontAwesome.otf */; };
 		C06F228C1BD52BA3007E67AB /* MotionTracker_TV.m in Sources */ = {isa = PBXBuildFile; fileRef = C06F228B1BD52BA3007E67AB /* MotionTracker_TV.m */; };
 		C0994BE4182CEBD9009BCE6F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0994BE3182CEBD9009BCE6F /* AVFoundation.framework */; };
 		C0A00D9B1BD98C45000A03DA /* Sleigh_Bells.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A00D9A1BD98C45000A03DA /* Sleigh_Bells.png */; };
@@ -88,7 +86,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9EC966B418368E39002DCDAF /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
 		C00510461BE17EBA0064AE75 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		C01C13032930F1760011FAE1 /* Jingle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jingle-Bridging-Header.h"; sourceTree = "<group>"; };
 		C01C13042930F1770011FAE1 /* Jingle_SwiftUIApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jingle_SwiftUIApp.swift; sourceTree = "<group>"; };
@@ -332,7 +329,6 @@
 				C01C161918254747005AFACE /* CWShaker-Info.plist */,
 				C01C161A18254747005AFACE /* InfoPlist.strings */,
 				C01C161F18254747005AFACE /* CWShaker-Prefix.pch */,
-				9EC966B418368E39002DCDAF /* FontAwesome.otf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -654,7 +650,6 @@
 				C00510471BE17EBA0064AE75 /* Launch Screen.storyboard in Resources */,
 				C01C162A18254747005AFACE /* Images.xcassets in Resources */,
 				C01C161C18254747005AFACE /* InfoPlist.strings in Resources */,
-				9EC966B518368E39002DCDAF /* FontAwesome.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,7 +667,6 @@
 				C0A00D9B1BD98C45000A03DA /* Sleigh_Bells.png in Resources */,
 				C0D566791BD99A0800CE0B19 /* TVMedia.xcassets in Resources */,
 				C0A00D9D1BD98C66000A03DA /* Tambourine.png in Resources */,
-				C06F22821BD52913007E67AB /* FontAwesome.otf in Resources */,
 				C0A00DA91BD98C7F000A03DA /* Maracas.png in Resources */,
 				C0A00DA11BD98C6F000A03DA /* Space_Water2.png in Resources */,
 			);

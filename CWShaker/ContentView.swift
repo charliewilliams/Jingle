@@ -11,6 +11,7 @@ fileprivate var scrollingHStackModifier = ScrollingHStackModifier(items: Instrum
 
 struct ContentView: View {
     
+    @Environment(\.openURL) private var openURL
     @ObservedObject var settingsStore = SettingsStore()
     
     let motion = Motion.shared
@@ -23,13 +24,21 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            Color.accentColor
-                .edgesIgnoringSafeArea(.all)
-            Image("background", bundle: nil)
+            
+            Image("background")
                 .resizable()
-                .edgesIgnoringSafeArea(.all)
+                .ignoresSafeArea()
             
             VStack {
+                
+                Button {
+                    openURL(URL(string: "https://linktr.ee/larkhall")!)
+                } label: {
+                    Image(systemName: "questionmark.circle.fill")
+                        .tint(.white)
+                }
+                
+                Spacer()
                 
                 Text("Jingle+")
                     .font(.largeTitle)
@@ -51,9 +60,7 @@ struct ContentView: View {
                     }
                 }
                 .modifier(scrollingHStackModifier)
-            }
-            
-            VStack(alignment: .leading) {
+
                 Spacer()
                 
                 Toggle(isOn: $settingsStore.keepPlayingAudioInBackground) {
@@ -63,24 +70,10 @@ struct ContentView: View {
                 }
                 .tint(Color.blue)
                 .toggleStyle(.switch)
-            }
-            .fixedSize(horizontal: true, vertical: false)
+                .fixedSize(horizontal: true, vertical: false)
             
-            VStack(alignment: .trailing) {
-                
-                HStack {
-                    Spacer()
-                    Button {
-                        /// Open info
-                        print("hi")
-                    } label: {
-                        Image(systemName: "questionmark.circle.fill")
-                            .tint(.white)
-                    }
-                }
                 Spacer()
             }
-            .fixedSize(horizontal: true, vertical: false)
         }
         .onAppear {
             
