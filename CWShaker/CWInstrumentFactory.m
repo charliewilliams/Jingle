@@ -21,7 +21,7 @@
     return kNumberOfInstruments-1;
 }
 
-+ (CWInstrument *)instrumentAtIndex:(Instrument)index {
++ (CWInstrument *)instrumentAtIndex:(NSInteger)index {
     
     NSAssert(index < [self numberOfInstruments], @"Index beyond number of instruments");
     

@@ -8,7 +8,7 @@
 
 @class CWInstrument;
 
-typedef enum Instrument {
+typedef enum InstrumentIndex {
     JingleBells,
     Maracas,
     Tambourine,
@@ -18,12 +18,12 @@ typedef enum Instrument {
     Guiro,
     Snare,
     RainStick
-} Instrument;
+} InstrumentIndex;
 
 @interface CWInstrumentFactory : NSObject
 
 + (NSUInteger)numberOfInstruments;
 + (NSUInteger)lastInstrumentIndex;
-+ (CWInstrument *)instrumentAtIndex:(Instrument)index;
++ (CWInstrument *)instrumentAtIndex:(NSInteger)index;
 
 @end

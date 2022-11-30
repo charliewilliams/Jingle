@@ -9,7 +9,7 @@ import SwiftUI
 
 struct InstrumentCell: View {
     
-    let instrument: Sound
+    let instrument: Instrument
     
     var body: some View {
         
@@ -23,7 +23,7 @@ struct InstrumentCell: View {
                     .shadow(radius: 5)
                     .overlay(Circle().stroke(.white, lineWidth: 2))
                 
-                Text(instrument.name)
+                Text(instrument.displayName())
                     .font(.title)
                     .foregroundColor(.white)
                     .bold()
@@ -38,7 +38,7 @@ struct InstrumentCell_Previews: PreviewProvider {
         ZStack {
             Color.red
                 .edgesIgnoringSafeArea(.all)
-            InstrumentCell(instrument: Sound(name: .jingle))
+            InstrumentCell(instrument: InstrumentStore.shared.instruments[0])
                 .frame(width: 250, height: 400, alignment: .center)
                 .border(Color.white, width: 5)
                 .cornerRadius(10)

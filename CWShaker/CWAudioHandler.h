@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Charlie Williams. All rights reserved.
 //
 
-@import Foundation;
+//@import Foundation;
 #import "MotionTracker.h"
 
 struct InstrumentData {
