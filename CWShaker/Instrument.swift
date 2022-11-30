@@ -22,9 +22,18 @@ class InstrumentStore {
     
     var instruments: [Instrument]
     
+    var selectedInstrument: Instrument
+    
     private init() {
         
         instruments = InstrumentType.allCases.map { Instrument(type: $0) }
+        selectedInstrument = instruments[0]
+        CWAudioHandler.shared().setActiveInstrument(selectedInstrument.inst)
+    }
+    
+    func selectInstrument(at index: Int) {
+        selectedInstrument = instruments[index]
+        CWAudioHandler.shared().setActiveInstrument(selectedInstrument.inst)
     }
 }
 
@@ -70,14 +79,5 @@ struct Instrument: Identifiable {
     
     func displayName() -> String {
         type.rawValue.capitalized
-    }
-    
-    func motion(magnitude: Double) {
-        
-        if magnitude > 0.02 {
-//            inst.trigger(note: 64, velocity: UInt8(min(127, magnitude * 127)))
-            
-//            inst.trigger(type: name, amplitude: min(1, magnitude))
-        }
     }
 }

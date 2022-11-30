@@ -16,12 +16,13 @@ struct Jingle_SwiftUIApp: App {
     @Environment(\.scenePhase) var scenePhase
     
     let audio = CWAudioHandler.shared()
-    let motion = Motion.shared
+//    let motion = Motion.shared
+    
+    let motion = MotionTracker()
     
     init() {
         
         UserDefaults.standard.register(defaults: ["kPlayAudioInBackgroundKey": true])
-
     }
     
     var body: some Scene {
@@ -33,7 +34,8 @@ struct Jingle_SwiftUIApp: App {
                 
             case .background:
                 if !SettingsStore().keepPlayingAudioInBackground {
-                    audio.stop()
+//                    audio.stop()
+                    motion.stop()
                 }
                 
             case .inactive:

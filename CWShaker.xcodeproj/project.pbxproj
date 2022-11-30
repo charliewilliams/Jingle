@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9EC966B518368E39002DCDAF /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9EC966B418368E39002DCDAF /* FontAwesome.otf */; };
 		C00510471BE17EBA0064AE75 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00510461BE17EBA0064AE75 /* Launch Screen.storyboard */; };
+		C0106E422937A8F100E42523 /* MotionTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C173818256F9E005AFACE /* MotionTracker.m */; };
 		C01C13052930F1770011FAE1 /* Jingle_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13042930F1770011FAE1 /* Jingle_SwiftUIApp.swift */; };
 		C01C130B2930F1870011FAE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13072930F1870011FAE1 /* ContentView.swift */; };
 		C01C130C2930F1870011FAE1 /* ScrollingStackModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13082930F1870011FAE1 /* ScrollingStackModifier.swift */; };
@@ -719,6 +720,7 @@
 				C01C13052930F1770011FAE1 /* Jingle_SwiftUIApp.swift in Sources */,
 				C01C16511825662E005AFACE /* CWInstrumentFactory.m in Sources */,
 				C01C173618256F8C005AFACE /* AccelerometerFilter.m in Sources */,
+				C0106E422937A8F100E42523 /* MotionTracker.m in Sources */,
 				C01C130B2930F1870011FAE1 /* ContentView.swift in Sources */,
 				C01C13122930F19B0011FAE1 /* MotionFilter.swift in Sources */,
 				C01C13142930F3B20011FAE1 /* SettingsStore.swift in Sources */,

@@ -9,8 +9,6 @@ import SwiftUI
 
 fileprivate var scrollingHStackModifier = ScrollingHStackModifier(items: InstrumentStore.shared.instruments.count, itemWidth: 250, itemSpacing: 30)
 
-fileprivate var activeIndex = 0
-
 struct ContentView: View {
     
     @ObservedObject var settingsStore = SettingsStore()
@@ -19,8 +17,7 @@ struct ContentView: View {
     
     init() {
         scrollingHStackModifier.onUpdateIndex = { index in
-            activeIndex = index
-            /// TODO set active instrument here
+            InstrumentStore.shared.selectInstrument(at: index)
         }
     }
     
@@ -86,10 +83,10 @@ struct ContentView: View {
             .fixedSize(horizontal: true, vertical: false)
         }
         .onAppear {
-            motion.addOnMotion { mag in
-                InstrumentStore.shared.instruments[activeIndex].motion(magnitude: mag)
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                CWAudioHandler.shared().playExampleSound(for: InstrumentStore.shared.selectedInstrument.inst)
             }
-            motion.start()
         }
     }
 }

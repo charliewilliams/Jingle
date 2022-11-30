@@ -176,7 +176,10 @@ static CWAudioHandler *sharedHandler;
         return;
     }
     [self setActiveInstrument:inInstrument];
-    instrument->noteOn(inInstrument.instPtr->baseNote, 1);
+    
+    if (instrument) {
+        instrument->noteOn(inInstrument.instPtr->baseNote, 1);
+    }
 }
 
 #pragma mark - Audio session stuff
