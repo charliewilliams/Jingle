@@ -83,7 +83,7 @@ struct InstrumentData {
 
 - (void)setIndex:(NSUInteger)index {
     
-    ShakerTypes stkIndex = [self stkIndexFromLayoutIndex:(Instrument)index];
+    ShakerTypes stkIndex = [self stkIndexFromLayoutIndex:(InstrumentIndex)index];
     self.instPtr->baseNote = [self baseNoteForInstrumentIndex:stkIndex];
     self.instPtr->range = [self noteRangeForInstrumentIndex:stkIndex];
     self.instPtr->amplitude = 1;
@@ -92,7 +92,7 @@ struct InstrumentData {
     _index = index;
 }
 
-- (ShakerTypes)stkIndexFromLayoutIndex:(Instrument)index {
+- (ShakerTypes)stkIndexFromLayoutIndex:(InstrumentIndex)index {
     
 // TODO do sample-based Snare
 // TODO do gesture-based Guiro

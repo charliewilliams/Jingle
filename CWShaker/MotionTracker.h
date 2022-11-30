@@ -6,9 +6,11 @@
 //  Copyright (c) 2013 C Williams. All rights reserved.
 //
 
-@import Foundation;
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+//@import Foundation;
 //@import CoreMotion;
-@import UIKit;
+//@import UIKit;
 
 typedef enum Axis {
     none = -1,

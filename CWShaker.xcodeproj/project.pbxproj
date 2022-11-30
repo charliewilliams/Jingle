@@ -20,12 +20,7 @@
 		C01C161218254747005AFACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01C161118254747005AFACE /* Foundation.framework */; };
 		C01C161618254747005AFACE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01C161518254747005AFACE /* UIKit.framework */; };
 		C01C161C18254747005AFACE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C01C161A18254747005AFACE /* InfoPlist.strings */; };
-		C01C161E18254747005AFACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C161D18254747005AFACE /* main.m */; };
-		C01C162518254747005AFACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01C162318254747005AFACE /* Main.storyboard */; };
-		C01C162818254747005AFACE /* CWMainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C162718254747005AFACE /* CWMainCollectionViewController.m */; };
 		C01C162A18254747005AFACE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01C162918254747005AFACE /* Images.xcassets */; };
-		C01C164B18255DB0005AFACE /* CWRadialGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C164A18255DB0005AFACE /* CWRadialGradientView.m */; };
-		C01C164E182565A0005AFACE /* CWInstrumentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C164D182565A0005AFACE /* CWInstrumentCollectionViewCell.m */; };
 		C01C16511825662E005AFACE /* CWInstrumentFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C16501825662E005AFACE /* CWInstrumentFactory.m */; };
 		C01C16541825665F005AFACE /* CWInstrument.mm in Sources */ = {isa = PBXBuildFile; fileRef = C01C16531825665F005AFACE /* CWInstrument.mm */; };
 		C01C173618256F8C005AFACE /* AccelerometerFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C173518256F8C005AFACE /* AccelerometerFilter.m */; };
@@ -33,20 +28,11 @@
 		C01C174018256FFE005AFACE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01C173F18256FFE005AFACE /* AudioToolbox.framework */; };
 		C01C17491825793B005AFACE /* CWAudioHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = C01C17481825793B005AFACE /* CWAudioHandler.mm */; };
 		C02E92F51FD2A7F7000678B8 /* libiSTK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C02E92F01FD2A519000678B8 /* libiSTK.a */; };
-		C036C1FA183ACA0100ABF2B2 /* CWMainCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C036C1F9183ACA0100ABF2B2 /* CWMainCollectionViewFlowLayout.m */; };
-		C05C9509182AF4E500541624 /* UIView+Glow.m in Sources */ = {isa = PBXBuildFile; fileRef = C05C9506182AF4E500541624 /* UIView+Glow.m */; };
-		C06F224F1BD52913007E67AB /* UIView+AnimateValueChange.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A64918182EEBB4007F7D17 /* UIView+AnimateValueChange.m */; };
 		C06F22501BD52913007E67AB /* CWInstrumentFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C16501825662E005AFACE /* CWInstrumentFactory.m */; };
 		C06F22541BD52913007E67AB /* AccelerometerFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C173518256F8C005AFACE /* AccelerometerFilter.m */; };
-		C06F22571BD52913007E67AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C161D18254747005AFACE /* main.m */; };
-		C06F22581BD52913007E67AB /* CWRadialGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C164A18255DB0005AFACE /* CWRadialGradientView.m */; };
 		C06F225B1BD52913007E67AB /* CWAudioHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = C01C17481825793B005AFACE /* CWAudioHandler.mm */; };
-		C06F225C1BD52913007E67AB /* CWMainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C162718254747005AFACE /* CWMainCollectionViewController.m */; };
 		C06F225E1BD52913007E67AB /* CWInstrument.mm in Sources */ = {isa = PBXBuildFile; fileRef = C01C16531825665F005AFACE /* CWInstrument.mm */; };
-		C06F22611BD52913007E67AB /* UIView+Glow.m in Sources */ = {isa = PBXBuildFile; fileRef = C05C9506182AF4E500541624 /* UIView+Glow.m */; };
 		C06F22631BD52913007E67AB /* mo_audio.mm in Sources */ = {isa = PBXBuildFile; fileRef = C01C173C18256FE4005AFACE /* mo_audio.mm */; };
-		C06F22641BD52913007E67AB /* CWInstrumentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C164D182565A0005AFACE /* CWInstrumentCollectionViewCell.m */; };
-		C06F22691BD52913007E67AB /* CWMainCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C036C1F9183ACA0100ABF2B2 /* CWMainCollectionViewFlowLayout.m */; };
 		C06F22791BD52913007E67AB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0994BE3182CEBD9009BCE6F /* AVFoundation.framework */; };
 		C06F227A1BD52913007E67AB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01C173F18256FFE005AFACE /* AudioToolbox.framework */; };
 		C06F227D1BD52913007E67AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01C161518254747005AFACE /* UIKit.framework */; };
@@ -55,7 +41,6 @@
 		C06F22811BD52913007E67AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C01C161A18254747005AFACE /* InfoPlist.strings */; };
 		C06F22821BD52913007E67AB /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9EC966B418368E39002DCDAF /* FontAwesome.otf */; };
 		C06F228C1BD52BA3007E67AB /* MotionTracker_TV.m in Sources */ = {isa = PBXBuildFile; fileRef = C06F228B1BD52BA3007E67AB /* MotionTracker_TV.m */; };
-		C06F22F81BD56634007E67AB /* MainTV.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C06F22F71BD56634007E67AB /* MainTV.storyboard */; };
 		C0994BE4182CEBD9009BCE6F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0994BE3182CEBD9009BCE6F /* AVFoundation.framework */; };
 		C0A00D9B1BD98C45000A03DA /* Sleigh_Bells.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A00D9A1BD98C45000A03DA /* Sleigh_Bells.png */; };
 		C0A00D9D1BD98C66000A03DA /* Tambourine.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A00D9C1BD98C66000A03DA /* Tambourine.png */; };
@@ -66,7 +51,6 @@
 		C0A00DA91BD98C7F000A03DA /* Maracas.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A00DA41BD98C7F000A03DA /* Maracas.png */; };
 		C0A00DAA1BD98C7F000A03DA /* Rainstick.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A00DA51BD98C7F000A03DA /* Rainstick.png */; };
 		C0A00DAB1BD98C7F000A03DA /* Snare_Drum.png in Resources */ = {isa = PBXBuildFile; fileRef = C0A00DA61BD98C7F000A03DA /* Snare_Drum.png */; };
-		C0A64919182EEBB4007F7D17 /* UIView+AnimateValueChange.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A64918182EEBB4007F7D17 /* UIView+AnimateValueChange.m */; };
 		C0AF733B1FD4998B00D5BB90 /* libiSTK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C02E92F01FD2A519000678B8 /* libiSTK.a */; };
 		C0D566791BD99A0800CE0B19 /* TVMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0D566781BD99A0800CE0B19 /* TVMedia.xcassets */; };
 /* End PBXBuildFile section */
@@ -119,16 +103,8 @@
 		C01C161518254747005AFACE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C01C161918254747005AFACE /* CWShaker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CWShaker-Info.plist"; sourceTree = "<group>"; };
 		C01C161B18254747005AFACE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C01C161D18254747005AFACE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C01C161F18254747005AFACE /* CWShaker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CWShaker-Prefix.pch"; sourceTree = "<group>"; };
-		C01C162418254747005AFACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C01C162618254747005AFACE /* CWMainCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWMainCollectionViewController.h; sourceTree = "<group>"; };
-		C01C162718254747005AFACE /* CWMainCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWMainCollectionViewController.m; sourceTree = "<group>"; };
 		C01C162918254747005AFACE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C01C164918255DB0005AFACE /* CWRadialGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWRadialGradientView.h; sourceTree = "<group>"; };
-		C01C164A18255DB0005AFACE /* CWRadialGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWRadialGradientView.m; sourceTree = "<group>"; };
-		C01C164C182565A0005AFACE /* CWInstrumentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWInstrumentCollectionViewCell.h; sourceTree = "<group>"; };
-		C01C164D182565A0005AFACE /* CWInstrumentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWInstrumentCollectionViewCell.m; sourceTree = "<group>"; };
 		C01C164F1825662E005AFACE /* CWInstrumentFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWInstrumentFactory.h; sourceTree = "<group>"; };
 		C01C16501825662E005AFACE /* CWInstrumentFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWInstrumentFactory.m; sourceTree = "<group>"; };
 		C01C16521825665F005AFACE /* CWInstrument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWInstrument.h; sourceTree = "<group>"; };
@@ -242,13 +218,8 @@
 		C01C17481825793B005AFACE /* CWAudioHandler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CWAudioHandler.mm; sourceTree = "<group>"; };
 		C02E92EA1FD2A519000678B8 /* iSTK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iSTK.xcodeproj; path = "../3rd-Party/istk/iSTK.xcodeproj"; sourceTree = "<group>"; };
 		C02E92F61FD2EBD3000678B8 /* Jingle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jingle.entitlements; sourceTree = "<group>"; };
-		C036C1F8183ACA0100ABF2B2 /* CWMainCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWMainCollectionViewFlowLayout.h; sourceTree = "<group>"; };
-		C036C1F9183ACA0100ABF2B2 /* CWMainCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWMainCollectionViewFlowLayout.m; sourceTree = "<group>"; };
-		C05C9505182AF4E500541624 /* UIView+Glow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Glow.h"; sourceTree = "<group>"; };
-		C05C9506182AF4E500541624 /* UIView+Glow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Glow.m"; sourceTree = "<group>"; };
 		C06F22881BD52913007E67AB /* JingleTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JingleTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06F228B1BD52BA3007E67AB /* MotionTracker_TV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionTracker_TV.m; sourceTree = "<group>"; };
-		C06F22F71BD56634007E67AB /* MainTV.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainTV.storyboard; sourceTree = "<group>"; };
 		C0994BE3182CEBD9009BCE6F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C0A00D9A1BD98C45000A03DA /* Sleigh_Bells.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sleigh_Bells.png; path = Images.xcassets/Sleigh_Bells.imageset/Sleigh_Bells.png; sourceTree = "<group>"; };
 		C0A00D9C1BD98C66000A03DA /* Tambourine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tambourine.png; path = Images.xcassets/Tambourine.imageset/Tambourine.png; sourceTree = "<group>"; };
@@ -259,8 +230,6 @@
 		C0A00DA41BD98C7F000A03DA /* Maracas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Maracas.png; path = Images.xcassets/Maracas.imageset/Maracas.png; sourceTree = "<group>"; };
 		C0A00DA51BD98C7F000A03DA /* Rainstick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rainstick.png; path = Images.xcassets/Rain_Stick.imageset/Rainstick.png; sourceTree = "<group>"; };
 		C0A00DA61BD98C7F000A03DA /* Snare_Drum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Snare_Drum.png; path = Images.xcassets/Snare_Drum.imageset/Snare_Drum.png; sourceTree = "<group>"; };
-		C0A64917182EEBB4007F7D17 /* UIView+AnimateValueChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AnimateValueChange.h"; sourceTree = "<group>"; };
-		C0A64918182EEBB4007F7D17 /* UIView+AnimateValueChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimateValueChange.m"; sourceTree = "<group>"; };
 		C0BF1FEB1839811C00C8F25F /* Shakers2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shakers2.h; sourceTree = "<group>"; };
 		C0D566781BD99A0800CE0B19 /* TVMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TVMedia.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -346,7 +315,6 @@
 				C01C130E2930F19B0011FAE1 /* Motion */,
 				C02E92F81FD2EE96000678B8 /* Audio */,
 				C0994BD1182C35A0009BCE6F /* View Controllers */,
-				C02E92F71FD2EE79000678B8 /* UI Building Blocks */,
 				C01C162918254747005AFACE /* Images.xcassets */,
 				C0D566781BD99A0800CE0B19 /* TVMedia.xcassets */,
 				C0A00D981BD98C36000A03DA /* TV images */,
@@ -362,7 +330,6 @@
 			children = (
 				C01C161918254747005AFACE /* CWShaker-Info.plist */,
 				C01C161A18254747005AFACE /* InfoPlist.strings */,
-				C01C161D18254747005AFACE /* main.m */,
 				C01C161F18254747005AFACE /* CWShaker-Prefix.pch */,
 				9EC966B418368E39002DCDAF /* FontAwesome.otf */,
 			);
@@ -503,19 +470,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C02E92F71FD2EE79000678B8 /* UI Building Blocks */ = {
-			isa = PBXGroup;
-			children = (
-				C01C164918255DB0005AFACE /* CWRadialGradientView.h */,
-				C01C164A18255DB0005AFACE /* CWRadialGradientView.m */,
-				C05C9505182AF4E500541624 /* UIView+Glow.h */,
-				C05C9506182AF4E500541624 /* UIView+Glow.m */,
-				C0A64917182EEBB4007F7D17 /* UIView+AnimateValueChange.h */,
-				C0A64918182EEBB4007F7D17 /* UIView+AnimateValueChange.m */,
-			);
-			name = "UI Building Blocks";
-			sourceTree = "<group>";
-		};
 		C02E92F81FD2EE96000678B8 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
@@ -544,15 +498,7 @@
 		C0994BD1182C35A0009BCE6F /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C01C162318254747005AFACE /* Main.storyboard */,
-				C06F22F71BD56634007E67AB /* MainTV.storyboard */,
 				C00510461BE17EBA0064AE75 /* Launch Screen.storyboard */,
-				C01C162618254747005AFACE /* CWMainCollectionViewController.h */,
-				C01C162718254747005AFACE /* CWMainCollectionViewController.m */,
-				C036C1F8183ACA0100ABF2B2 /* CWMainCollectionViewFlowLayout.h */,
-				C036C1F9183ACA0100ABF2B2 /* CWMainCollectionViewFlowLayout.m */,
-				C01C164C182565A0005AFACE /* CWInstrumentCollectionViewCell.h */,
-				C01C164D182565A0005AFACE /* CWInstrumentCollectionViewCell.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -708,7 +654,6 @@
 				C01C162A18254747005AFACE /* Images.xcassets in Resources */,
 				C01C161C18254747005AFACE /* InfoPlist.strings in Resources */,
 				9EC966B518368E39002DCDAF /* FontAwesome.otf in Resources */,
-				C01C162518254747005AFACE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,7 +672,6 @@
 				C0D566791BD99A0800CE0B19 /* TVMedia.xcassets in Resources */,
 				C0A00D9D1BD98C66000A03DA /* Tambourine.png in Resources */,
 				C06F22821BD52913007E67AB /* FontAwesome.otf in Resources */,
-				C06F22F81BD56634007E67AB /* MainTV.storyboard in Resources */,
 				C0A00DA91BD98C7F000A03DA /* Maracas.png in Resources */,
 				C0A00DA11BD98C6F000A03DA /* Space_Water2.png in Resources */,
 			);
@@ -772,25 +716,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C01C13182930F7720011FAE1 /* Instrument.swift in Sources */,
-				C0A64919182EEBB4007F7D17 /* UIView+AnimateValueChange.m in Sources */,
 				C01C13052930F1770011FAE1 /* Jingle_SwiftUIApp.swift in Sources */,
 				C01C16511825662E005AFACE /* CWInstrumentFactory.m in Sources */,
 				C01C173618256F8C005AFACE /* AccelerometerFilter.m in Sources */,
 				C01C130B2930F1870011FAE1 /* ContentView.swift in Sources */,
-				C01C161E18254747005AFACE /* main.m in Sources */,
-				C01C164B18255DB0005AFACE /* CWRadialGradientView.m in Sources */,
 				C01C13122930F19B0011FAE1 /* MotionFilter.swift in Sources */,
 				C01C13142930F3B20011FAE1 /* SettingsStore.swift in Sources */,
 				C01C17491825793B005AFACE /* CWAudioHandler.mm in Sources */,
-				C01C162818254747005AFACE /* CWMainCollectionViewController.m in Sources */,
 				C01C16541825665F005AFACE /* CWInstrument.mm in Sources */,
 				C01C13112930F19B0011FAE1 /* Motion.swift in Sources */,
-				C05C9509182AF4E500541624 /* UIView+Glow.m in Sources */,
 				C01C173E18256FE4005AFACE /* mo_audio.mm in Sources */,
 				C01C130D2930F1870011FAE1 /* InstrumentCell.swift in Sources */,
 				C01C130C2930F1870011FAE1 /* ScrollingStackModifier.swift in Sources */,
-				C01C164E182565A0005AFACE /* CWInstrumentCollectionViewCell.m in Sources */,
-				C036C1FA183ACA0100ABF2B2 /* CWMainCollectionViewFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -798,19 +735,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C06F224F1BD52913007E67AB /* UIView+AnimateValueChange.m in Sources */,
 				C06F22501BD52913007E67AB /* CWInstrumentFactory.m in Sources */,
 				C06F22541BD52913007E67AB /* AccelerometerFilter.m in Sources */,
-				C06F22571BD52913007E67AB /* main.m in Sources */,
-				C06F22581BD52913007E67AB /* CWRadialGradientView.m in Sources */,
 				C06F225B1BD52913007E67AB /* CWAudioHandler.mm in Sources */,
-				C06F225C1BD52913007E67AB /* CWMainCollectionViewController.m in Sources */,
 				C06F225E1BD52913007E67AB /* CWInstrument.mm in Sources */,
-				C06F22611BD52913007E67AB /* UIView+Glow.m in Sources */,
 				C06F228C1BD52BA3007E67AB /* MotionTracker_TV.m in Sources */,
 				C06F22631BD52913007E67AB /* mo_audio.mm in Sources */,
-				C06F22641BD52913007E67AB /* CWInstrumentCollectionViewCell.m in Sources */,
-				C06F22691BD52913007E67AB /* CWMainCollectionViewFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -836,14 +766,6 @@
 				C01C161B18254747005AFACE /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		C01C162318254747005AFACE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C01C162418254747005AFACE /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

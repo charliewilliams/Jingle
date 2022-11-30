@@ -130,10 +130,6 @@ static CWAudioHandler *sharedHandler;
             exit(1);
         };
 
-        if (!self.outputAudioUnitIsPublished) {
-            [self publishOutputAudioUnit];
-        }
-
         instrument = new stk::Shakers();
 
         self.isSetup = YES;
