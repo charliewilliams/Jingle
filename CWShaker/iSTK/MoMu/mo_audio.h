@@ -64,7 +64,12 @@
 
 // headers
 #include "mo_def.h"
+
+#if __has_include(<AudioUnit/AudioUnit.h>)
 #include <AudioUnit/AudioUnit.h>
+#else
+#include <AVFAudio/AVFAudio.h>
+#endif
 
 // type definition for audio callback function
 typedef void (* MoCallback)( Float32 * buffer, UInt32 numFrames, void * userData );

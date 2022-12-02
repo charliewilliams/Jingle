@@ -16,6 +16,8 @@ struct ScrollingHStackModifier: ViewModifier {
     var itemWidth: CGFloat
     var itemSpacing: CGFloat
     
+    let screenWidth = Screen.screenWidth
+    
     @State var index: Int = 0 {
         didSet {
             /// The index is weirdly in reverse order, let's not tell the outside world
@@ -32,7 +34,6 @@ struct ScrollingHStackModifier: ViewModifier {
         
         // Calculate Total Content Width
         let contentWidth: CGFloat = CGFloat(items) * itemWidth + CGFloat(items - 1) * itemSpacing
-        let screenWidth = UIScreen.main.bounds.width
         
         // Set Initial Offset to first Item
         let initialOffset = (contentWidth/2.0) - (screenWidth/2.0) + ((screenWidth - itemWidth) / 2.0)
@@ -55,7 +56,6 @@ struct ScrollingHStackModifier: ViewModifier {
                         
                         // Now calculate which item to snap to
                         let contentWidth: CGFloat = CGFloat(items) * itemWidth + CGFloat(items - 1) * itemSpacing
-                        let screenWidth = UIScreen.main.bounds.width
                         
                         // Center position of current offset
                         let center = scrollOffset + (screenWidth / 2.0) + (contentWidth / 2.0)

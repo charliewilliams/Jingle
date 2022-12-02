@@ -9,6 +9,19 @@
 /* Begin PBXBuildFile section */
 		C00510471BE17EBA0064AE75 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00510461BE17EBA0064AE75 /* Launch Screen.storyboard */; };
 		C0106E422937A8F100E42523 /* MotionTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C173818256F9E005AFACE /* MotionTracker.m */; };
+		C0106E4D293A2E1A00E42523 /* Jingle_watchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0106E4C293A2E1A00E42523 /* Jingle_watchApp.swift */; };
+		C0106E4F293A2E1A00E42523 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0106E4E293A2E1A00E42523 /* ContentView.swift */; };
+		C0106E54293A2E1C00E42523 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0106E53293A2E1C00E42523 /* Preview Assets.xcassets */; };
+		C0106E59293A2F9500E42523 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13132930F3B20011FAE1 /* SettingsStore.swift */; };
+		C0106E5A293A2F9F00E42523 /* Instrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13172930F7720011FAE1 /* Instrument.swift */; };
+		C0106E5B293A2FAA00E42523 /* ScrollingStackModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13082930F1870011FAE1 /* ScrollingStackModifier.swift */; };
+		C0106E5C293A2FAA00E42523 /* InstrumentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13092930F1870011FAE1 /* InstrumentCell.swift */; };
+		C0106E5D293A2FB400E42523 /* CWInstrument.mm in Sources */ = {isa = PBXBuildFile; fileRef = C01C16531825665F005AFACE /* CWInstrument.mm */; };
+		C0106E5E293A2FB400E42523 /* CWAudioHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = C01C17481825793B005AFACE /* CWAudioHandler.mm */; };
+		C0106E5F293A2FB400E42523 /* CWInstrumentFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C01C16501825662E005AFACE /* CWInstrumentFactory.m */; };
+		C0106E60293A2FC000E42523 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01C162918254747005AFACE /* Images.xcassets */; };
+		C0106E62293A30F300E42523 /* UIScreen+Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0106E61293A30F300E42523 /* UIScreen+Watch.swift */; };
+		C0106E63293A310A00E42523 /* UIScreen+Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0106E61293A30F300E42523 /* UIScreen+Watch.swift */; };
 		C01C13052930F1770011FAE1 /* Jingle_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13042930F1770011FAE1 /* Jingle_SwiftUIApp.swift */; };
 		C01C130B2930F1870011FAE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13072930F1870011FAE1 /* ContentView.swift */; };
 		C01C130C2930F1870011FAE1 /* ScrollingStackModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01C13082930F1870011FAE1 /* ScrollingStackModifier.swift */; };
@@ -87,6 +100,11 @@
 
 /* Begin PBXFileReference section */
 		C00510461BE17EBA0064AE75 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C0106E4A293A2E1A00E42523 /* Jingle-watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jingle-watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0106E4C293A2E1A00E42523 /* Jingle_watchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jingle_watchApp.swift; sourceTree = "<group>"; };
+		C0106E4E293A2E1A00E42523 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C0106E53293A2E1C00E42523 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0106E61293A30F300E42523 /* UIScreen+Watch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Watch.swift"; sourceTree = "<group>"; };
 		C01C13032930F1760011FAE1 /* Jingle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jingle-Bridging-Header.h"; sourceTree = "<group>"; };
 		C01C13042930F1770011FAE1 /* Jingle_SwiftUIApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jingle_SwiftUIApp.swift; sourceTree = "<group>"; };
 		C01C13072930F1870011FAE1 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -233,6 +251,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C0106E47293A2E1A00E42523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C01C160B18254747005AFACE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -260,6 +285,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C0106E4B293A2E1A00E42523 /* Jingle-watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				C0106E4C293A2E1A00E42523 /* Jingle_watchApp.swift */,
+				C0106E4E293A2E1A00E42523 /* ContentView.swift */,
+				C0106E52293A2E1C00E42523 /* Preview Content */,
+			);
+			path = "Jingle-watch Watch App";
+			sourceTree = "<group>";
+		};
+		C0106E52293A2E1C00E42523 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C0106E53293A2E1C00E42523 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		C01C130E2930F19B0011FAE1 /* Motion */ = {
 			isa = PBXGroup;
 			children = (
@@ -275,6 +318,7 @@
 				C02E92F61FD2EBD3000678B8 /* Jingle.entitlements */,
 				C02E92EA1FD2A519000678B8 /* iSTK.xcodeproj */,
 				C01C161718254747005AFACE /* CWShaker */,
+				C0106E4B293A2E1A00E42523 /* Jingle-watch Watch App */,
 				C01C161018254747005AFACE /* Frameworks */,
 				C01C160F18254747005AFACE /* Products */,
 			);
@@ -285,6 +329,7 @@
 			children = (
 				C01C160E18254747005AFACE /* Jingle.app */,
 				C06F22881BD52913007E67AB /* JingleTV.app */,
+				C0106E4A293A2E1A00E42523 /* Jingle-watch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -309,6 +354,7 @@
 				C01C13082930F1870011FAE1 /* ScrollingStackModifier.swift */,
 				C01C13132930F3B20011FAE1 /* SettingsStore.swift */,
 				C01C13172930F7720011FAE1 /* Instrument.swift */,
+				C0106E61293A30F300E42523 /* UIScreen+Watch.swift */,
 				C0994BD0182C3592009BCE6F /* Motion */,
 				C01C130E2930F19B0011FAE1 /* Motion */,
 				C02E92F81FD2EE96000678B8 /* Audio */,
@@ -519,6 +565,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C0106E49293A2E1A00E42523 /* Jingle-watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0106E58293A2E1C00E42523 /* Build configuration list for PBXNativeTarget "Jingle-watch Watch App" */;
+			buildPhases = (
+				C0106E46293A2E1A00E42523 /* Sources */,
+				C0106E47293A2E1A00E42523 /* Frameworks */,
+				C0106E48293A2E1A00E42523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jingle-watch Watch App";
+			productName = "Jingle-watch Watch App";
+			productReference = C0106E4A293A2E1A00E42523 /* Jingle-watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 		C01C160D18254747005AFACE /* Jingle */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C01C164018254747005AFACE /* Build configuration list for PBXNativeTarget "Jingle" */;
@@ -564,10 +627,14 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = CW;
+				LastSwiftUpdateCheck = 1410;
 				LastTestingUpgradeCheck = 0700;
 				LastUpgradeCheck = 1410;
 				ORGANIZATIONNAME = "Charlie Williams";
 				TargetAttributes = {
+					C0106E49293A2E1A00E42523 = {
+						CreatedOnToolsVersion = 14.1;
+					};
 					C01C160D18254747005AFACE = {
 						DevelopmentTeam = N2WM6EN8GQ;
 						LastSwiftMigration = 1410;
@@ -621,6 +688,7 @@
 			targets = (
 				C01C160D18254747005AFACE /* Jingle */,
 				C06F22491BD52913007E67AB /* JingleTV */,
+				C0106E49293A2E1A00E42523 /* Jingle-watch Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -643,6 +711,15 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C0106E48293A2E1A00E42523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0106E60293A2FC000E42523 /* Images.xcassets in Resources */,
+				C0106E54293A2E1C00E42523 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C01C160C18254747005AFACE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -706,6 +783,23 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C0106E46293A2E1A00E42523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0106E5C293A2FAA00E42523 /* InstrumentCell.swift in Sources */,
+				C0106E5A293A2F9F00E42523 /* Instrument.swift in Sources */,
+				C0106E5F293A2FB400E42523 /* CWInstrumentFactory.m in Sources */,
+				C0106E4F293A2E1A00E42523 /* ContentView.swift in Sources */,
+				C0106E5E293A2FB400E42523 /* CWAudioHandler.mm in Sources */,
+				C0106E63293A310A00E42523 /* UIScreen+Watch.swift in Sources */,
+				C0106E5B293A2FAA00E42523 /* ScrollingStackModifier.swift in Sources */,
+				C0106E59293A2F9500E42523 /* SettingsStore.swift in Sources */,
+				C0106E4D293A2E1A00E42523 /* Jingle_watchApp.swift in Sources */,
+				C0106E5D293A2FB400E42523 /* CWInstrument.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C01C160A18254747005AFACE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -720,6 +814,7 @@
 				C01C13142930F3B20011FAE1 /* SettingsStore.swift in Sources */,
 				C01C17491825793B005AFACE /* CWAudioHandler.mm in Sources */,
 				C01C16541825665F005AFACE /* CWInstrument.mm in Sources */,
+				C0106E62293A30F300E42523 /* UIScreen+Watch.swift in Sources */,
 				C01C13112930F19B0011FAE1 /* Motion.swift in Sources */,
 				C01C173E18256FE4005AFACE /* mo_audio.mm in Sources */,
 				C01C130D2930F1870011FAE1 /* InstrumentCell.swift in Sources */,
@@ -767,6 +862,97 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C0106E55293A2E1C00E42523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"Jingle-watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = N2WM6EN8GQ;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PREFIX_HEADER = "CWShaker/CWShaker-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jingle-watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CWShaker/Jingle-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		C0106E56293A2E1C00E42523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"Jingle-watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = N2WM6EN8GQ;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREFIX_HEADER = "CWShaker/CWShaker-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jingle-watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CWShaker/Jingle-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
 		C01C163E18254747005AFACE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1001,6 +1187,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C0106E58293A2E1C00E42523 /* Build configuration list for PBXNativeTarget "Jingle-watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0106E55293A2E1C00E42523 /* Debug */,
+				C0106E56293A2E1C00E42523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C01C160918254747005AFACE /* Build configuration list for PBXProject "CWShaker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

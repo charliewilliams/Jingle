@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <CoreMotion/CoreMotion.h>
 //@import Foundation;
 //@import CoreMotion;
 //@import UIKit;
@@ -46,6 +47,8 @@ struct AccelerometerData {
 #import <GameController/GameController.h>
 @interface MotionTracker : NSObject
 
+#else
+@interface MotionTracker : NSObject
 #endif
 {
     AccelerometerFilter *filter;

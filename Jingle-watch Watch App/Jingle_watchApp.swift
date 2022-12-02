@@ -1,27 +1,20 @@
 //
-//  Jingle_SwiftUIApp.swift
-//  Jingle-SwiftUI
+//  Jingle_watchApp.swift
+//  Jingle-watch Watch App
 //
-//  Created by Charlie Williams on 19/12/2021.
+//  Created by Charlie Williams on 02/12/2022.
+//  Copyright © 2022 Charlie Williams. All rights reserved.
 //
 
 import SwiftUI
-import AVFoundation
-
-private let kPlayAudioInBackgroundKey = "kPlayAudioInBackgroundKey"
 
 @main
-struct Jingle_SwiftUIApp: App {
+struct Jingle_watch_Watch_AppApp: App {
     
     @Environment(\.scenePhase) var scenePhase
     
     let audio = CWAudioHandler.shared()
     let motion = MotionTracker()
-    
-    init() {
-        
-        UserDefaults.standard.register(defaults: ["kPlayAudioInBackgroundKey": true])
-    }
     
     var body: some Scene {
         WindowGroup {
@@ -32,13 +25,13 @@ struct Jingle_SwiftUIApp: App {
                 
             case .background:
                 if !SettingsStore().keepPlayingAudioInBackground {
-//                    audio.stop()
+                    //                    audio.stop()
                     motion.stop()
                 }
                 
             case .inactive:
-//                audio.stop()
-//                motion.stop()
+                //                audio.stop()
+                //                motion.stop()
                 break
                 
             case .active:
